@@ -1,0 +1,82 @@
+[gd_scene load_steps=2 format=3 uid="uid://cke2nkb6ny8bs"]
+
+[ext_resource type="Script" path="res://Client.cs" id="1_x40yp"]
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_x40yp")
+
+[node name="OnTestError" type="Button" parent="."]
+offset_left = 599.0
+offset_top = 39.0
+offset_right = 873.0
+offset_bottom = 131.0
+text = "OnTestError"
+
+[node name="OnTriggerBroadcast" type="Button" parent="."]
+offset_left = 173.0
+offset_top = 39.0
+offset_right = 511.0
+offset_bottom = 128.0
+text = "OnTriggerBroadcast"
+
+[node name="list" type="VBoxContainer" parent="."]
+custom_minimum_size = Vector2(10, 10)
+offset_left = 599.0
+offset_top = 216.0
+offset_right = 1020.0
+offset_bottom = 546.0
+size_flags_horizontal = 8
+size_flags_vertical = 10
+size_flags_stretch_ratio = 6.26
+theme_override_constants/separation = 20
+
+[node name="OnListInt" type="Button" parent="list"]
+layout_mode = 2
+text = "OnListInt"
+
+[node name="OnListLong" type="Button" parent="list"]
+layout_mode = 2
+text = "OnListLong"
+
+[node name="OnListBool" type="Button" parent="list"]
+layout_mode = 2
+text = "OnListBool"
+
+[node name="OnListString" type="Button" parent="list"]
+layout_mode = 2
+text = "OnListString"
+
+[node name="OnListValue" type="Button" parent="list"]
+layout_mode = 2
+text = "OnListValue"
+
+[node name="single" type="VBoxContainer" parent="."]
+custom_minimum_size = Vector2(10, 10)
+offset_left = 95.0
+offset_top = 216.0
+offset_right = 516.0
+offset_bottom = 546.0
+size_flags_horizontal = 8
+size_flags_vertical = 10
+size_flags_stretch_ratio = 6.26
+theme_override_constants/separation = 20
+
+[node name="OnIntValue" type="Button" parent="single"]
+layout_mode = 2
+text = "OnIntValue"
+
+[node name="OnLongValue" type="Button" parent="single"]
+layout_mode = 2
+text = "OnLongValue"
+
+[node name="OnBoolValue" type="Button" parent="single"]
+layout_mode = 2
+text = "OnBoolValue"
+
+[node name="OnStringValue" type="Button" parent="single"]
+layout_mode = 2
+text = "OnStringValue"
+
+[node name="OnValueObject" type="Button" parent="single"]
+layout_mode = 2
+text = "OnValueObject"

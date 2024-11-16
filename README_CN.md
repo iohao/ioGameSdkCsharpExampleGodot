@@ -29,7 +29,11 @@
 
 ### 启动游戏服务器
 
-see https://github.com/iohao/ioGameExamples/tree/main/SdkExample
+服务器源码 [ioGameServer](https://github.com/iohao/ioGameExamples/tree/main/SdkExample)
+
+> 运行 SdkApplication.java 启动游戏服务器
+
+![](./doc/server.png)
 
 
 

@@ -40,6 +40,12 @@ see https://github.com/iohao/ioGameExamples/tree/main/SdkExample
 
 
 
+> Run SdkApplication.java
+
+![](./doc/server.png)
+
+
+
 ### Start Godot
 
 > Godot Version: 4.2.2
